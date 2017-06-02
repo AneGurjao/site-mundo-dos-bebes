@@ -1,0 +1,818 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #ffffff;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-family: "Raleway";
+	position: relative;
+}
+
+header{
+	background-image: url(images/back-header2.svg);
+	padding-bottom: 1px;
+}
+
+a {
+	text-decoration: none;
+	font-family: verdana;
+	color: #2e3092;
+	font-size: 18px;
+}
+
+a:hover {
+	color: #6faac3;
+}
+
+footer{
+	background: gray;
+	margin-top: 25px;
+	width: 100%;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+ul{
+	list-style: none;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul.pagination li.active {
+   border: 1px solid #42439d;
+   border-radius: 20px;
+}
+
+select{
+	margin-left: 690px;
+	margin-top: 20px;
+    border: 1px solid #42439d;
+    color: gray;
+    font-size: 12px; 
+    padding: 6px;
+    border-radius: 2px;
+}
+
+.actions{ 
+	padding-right: 8px;
+}
+
+.actions img{
+	width: 75px;
+	margin-left: -143px;
+}
+
+
+.background {
+	background: #42439d;
+}
+
+.btn{
+    padding: 8px 38px 8px 36px;
+    border: solid 1px #42439d;
+    border-radius: 2px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.button-login{
+	background: #42439d;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-cadastro{
+	border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 18px;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button.newsletter{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.button-primary{
+	background: #42439d;
+	color: white;
+	margin-bottom: 10px;
+	margin-top: 18px;
+}
+.button-primary img{
+	width: 12%;
+	padding-right: 5px;
+}
+
+.botao.desejo{
+	margin-bottom: 10px;
+	color: #42439d;
+	background: transparent;
+	margin-top: 18px;
+}
+
+.botao.desejo img{
+    width: 12%;
+    padding-right: 5px;
+}
+
+/*BOTAO DESEJO*/
+.botao.desejo.vermelho{
+	background-color: red;
+}
+
+.box p{
+	font-size: 13px;
+    font-family: sans-serif;
+}
+
+.detalhes-produtos{
+	position: absolute;
+    margin-left: 8px;
+    cursor: pointer;
+	color: #42439d;
+	padding: 7px 10px 7px 10px;
+    border: solid 1px #42439d;
+    border-radius: 2px;
+	background: transparent;
+    width: 140px;
+}
+
+.clear {
+	clear: both;
+}
+
+.conteudo{
+	width: 60%;
+	display: inline-block;
+}
+
+.card{
+	margin-top: 20px; 
+	padding-left: 7px;
+    padding-right: 7px;           
+}
+.card p{
+	font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item-col2 {  /*Foi delimitado um tamanho fixo para todas as imagens*/
+    width: 50%;
+}
+
+.content-info{
+	align-items: center; 
+	padding-bottom: 20px;
+	padding-top: 20px;
+	display: flex; 
+    flex-wrap: wrap;
+}
+
+.container-rodape{   /*criar colunas no footer*/ 
+	display: -webkit-flex;
+    display: flex;
+    width: 100%; 
+}
+
+.carrinho{
+	font-family: cursive;
+    
+}
+
+.cart{ 
+	width: 10%;
+    padding-right: -12px;
+}
+
+.caixa{
+	border: 1px solid #42439d;
+	margin-bottom: 20px;
+    width: 182px;
+}
+
+.conteudo-caixa{
+	text-align: left;
+	padding-left: 5px;
+    font-size: 14px; 
+}
+
+.conteudo-caixa input{
+	width: 158px;
+}
+.conteudo-newsletter{
+	text-align: center;
+}
+
+.content-product{ 
+	display: inline-flex;
+}
+
+.contato p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+/*Area de contato*/
+.contato ul{
+    text-align: left;
+    padding-left: 35%;
+}
+ /*fim contato*/
+
+.foto-produto{
+	height: 240px;
+	cursor: pointer;
+}
+
+.item{  /*elemento filho do container-rodape,*/ 
+    margin: 15px;
+    flex: 1; /*propriedade flex serve pra definir uma larg distribuida*/
+    text-align: center;
+}
+
+.item img{
+	padding-top: 15px;
+}
+.item nav{
+	padding-top: 15px; 
+}
+
+.logo img{
+	padding-top: 58px;
+}
+
+.menu-lateral{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 7%; 
+	margin-top: 35px; 
+}
+
+.menu ul li {
+	display: inline-flex;
+	margin: 12px;	
+	padding: 10px; 
+}
+
+.title-cart{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.text-contain{
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.product-title {
+	height: 30px;
+    font-weight: 600;
+}
+
+.pagination{
+	display: inline-flex;
+	margin: 12px;
+	list-style: none;	
+	padding: 10px;
+}
+.pagination li{
+	margin-left: 8px;
+    margin-right: 8px;
+}
+
+.redessociais img: hover {
+	color: #6faac3;
+}
+
+.slogan{
+	color: #67aac3;
+	font-family: Crafty Girls;
+    font-size: 28px;
+}
+
+.topo-esquerdo {
+	float: left;
+	justify-content: left;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.topo-direito {
+	float: right;
+	justify-content: right;
+	padding: 13px;
+	margin-right: 60px;
+}
+
+.title{
+	color: #3a60b6;
+    font-size: 1.5em;
+    border-top: dashed 2px #3a60b6;
+    border-bottom: dashed 2px #3a60b6;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.titulo-caixa {
+	border-bottom: 1px solid #42439d;
+	background: #42439d;
+	padding: 5px;  
+}
+
+.titulo-caixa p{
+	margin: 0;
+	color: white;
+    font-size: 15px;
+}
+
+.titulo{  
+	font-family: 'Crafty Girls', cursive;
+	font-size: 32px;
+	color: #f4f4f4;
+	padding: 10px;
+	margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 65px;
+}
+
+.text-gray{
+	color: gray;
+}
+
+
+
+/*FINAL BOTAO DESEJO*/
+
+/*BOTAO*/
+.botao.hamburguer {
+	height: 40px;
+    width: 40px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background: none;
+    border: none;
+    display: none; /*botao tem q desaparecer qndo estiver em modo visualizacao pc*/
+}
+
+.botao.hamburguer span{
+	height: 2px;
+    display: block;
+    background: white;
+}
+/*botao hamburguer fechar*/
+.botao.fechar{
+	height: 40px;
+    width: 40px;
+    padding: 12px;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background: #42439d;
+    border: none;
+}
+.botao.fechar span{
+	height: 2px;
+    display: block;
+    background: white;
+}
+
+/*botao mostrar sidebar direita*/
+.botao.login{  
+	height: 40px;
+	width: 40px;
+	padding: 12px;
+	background: none;
+    border: none;
+    display: none; 	
+}
+.fa-user{
+	color: white;
+}
+
+/*icone sidebar direita*/
+.sidebar.direita img{
+	width: 20px;
+}
+.sidebar.direita button{
+    background: transparent;
+    border: none;
+
+}
+/*FIM DO BOTAO*/
+
+/*SIDEBAR*/
+.sidebar{
+	background: #42439d;
+	padding: 20px 0px;
+	text-align: left;
+	/*Posiçao fixa, sempre acompanha o usuário na tela*/
+	position: fixed;
+	/*VH - Viewport height - altura do viewport, altura da visualização*/
+	width: 200px;
+	height: 100vh;
+	/*Fala em que camada ele está,*/
+	z-index: 10;
+
+	transition: all 1s ease;
+}
+
+.sidebar.esquerda{
+	/*Coordenadas pela esquerda*/
+	left: -300px;
+	/*Coordenados por cima*/
+	top: 0px;
+}
+.sidebar.esquerda.ativo{
+	left: 0px;
+}
+.sidebar.direita{
+	/*Coordenados pela direita*/
+	right: -300px;
+	/*Coordenados por cima*/
+	top: 0px;	
+}
+.sidebar.direita.ativo{
+	right: 0px;
+}
+
+.sidebar ul{
+	list-style: none;
+	margin: 0px;
+	padding-left: 20px;
+}
+
+.sidebar li{
+	border-bottom: ;
+}
+
+.sidebar a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 0px;
+	display: block;
+}
+
+/*tablet*/
+/*Condiçao, quando ficar menor que 500px faça as seguintes instruções*/
+@media (max-width: 1140px) {
+	.botao.hamburguer{
+		display: block;
+		margin-left: 50px;
+	}
+	.botao.hamburguer span{
+		display: block;
+		margin-top: 4px;
+	}
+
+	.botao.login{
+		display: inline;
+	}
+	.button-login{
+		display: none;
+	}
+	.button-cadastro{
+		display: none;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.slogan{
+		font-size: 20px;
+	}
+
+	.conteudo{
+		display: inline;
+	}
+
+	.title{
+		font-size: 1.3em;
+	    border-top: dashed 1px #3a60b6;
+    	border-bottom: dashed 1px #3a60b6;
+	    padding-top: 4px;
+    	padding-bottom: 4px;
+	    margin-left: 5px;
+    	margin-right: 5px;
+	}
+	.titulo{
+		font-size: 27px;
+	}
+
+	.menu-lateral{
+		display: none;
+	}
+
+	.item-col2{
+		width: 50%;
+	}
+
+	select {
+    margin-left: 0px;
+	}
+	
+	.content-product{
+		display: flex;
+	}
+
+	.contato p{
+		padding: 10px;
+	}
+
+	.contato ul{
+		text-align: left;
+		padding-left: 35%;
+	}
+
+	.product-title{
+		padding-top: 30px;
+	}
+
+	.text-contain{
+	    margin: 15px;
+	}
+
+	footer{
+	    position: absolute;
+    	bottom: 0;
+	}
+	body{
+	    padding-bottom: 90px;
+	}
+
+}	
+
+
+/*fim do tablet*/
+
+/*smartphone*/
+@media (max-width: 768px) {
+	.menu{
+		display: none;
+	}
+	.card{
+		width: 100%;
+	}
+	.botao.hamburguer{
+		display: block;
+		margin-left: 0px;
+		padding-top: 9px;
+	}
+	.botao.hamburguer span{
+		display: block;
+		margin-top: 3px;
+	}
+
+	.botao.login{
+		display: block;
+	}
+
+	.botao.login  .fa{
+		font-size: 1.5em;
+	}
+
+	.slogan{
+		font-size: 20px;
+	}
+
+	.titulo{
+	    font-size: 16px;
+	    margin-left: 0px;
+	}
+
+	.topo-esquerdo{
+		width: 70%;
+	}
+	.topo-direito {
+		margin-right: 0px;
+		padding: 0px;
+	}
+
+	.content-info{
+		margin: 0;
+	}
+
+	.menu-lateral{
+		display: none;
+	}
+
+	.item-col2{
+		width: 50%;
+	}
+	.logo img{
+		height: 200px;
+	}
+
+	select {
+    margin-left: 0px;
+	}
+
+	.content-product{
+		display: flex;
+	}
+
+	.contato p{
+		padding: 10px;
+	}
+
+	.contato ul{
+		text-align: left;
+		padding-left: 35%;
+	}
+
+	.product-title{
+		padding-top: 30px;
+	}
+
+	.text-contain{
+	    margin: 15px;
+	}
+
+	footer{
+	    position: absolute;
+	}
+	body{
+	    padding-bottom: 90px;
+	}
+}
+
+@media(max-width: 480px) {
+
+	.content-product{
+		display: block;
+	}
+
+	.item-col2{
+		width: 100%;
+	}
+
+	select {
+    margin-left: 0px;
+	}
+
+	.logo img{
+		height: 200px;
+	}
+
+	.contato p{
+		padding: 10px;
+	}
+
+	.contato ul{
+		text-align: left;
+		padding-left: 20%;
+	}
+
+	.product-title{
+		padding-top: 30px;
+	}
+
+	.text-contain{
+	    margin: 15px;
+	}
+
+	footer{
+	    position: absolute;
+	    bottom: inherit; /*inherit sempre vai herdar o valor do elemento pai*/
+	}
+	body{
+	    padding-bottom: 90px;
+	}
+}
+
+
+@media (max-width: 375px) {
+	.menu{
+		display: none;
+	}
+	.card{
+		width: 100%;
+	}
+	.botao.hamburguer{
+		display: block;
+		margin-left: 0px;
+		padding-top: 9px;
+	}
+	.botao.hamburguer span{
+		display: block;
+		margin-top: 3px;
+	}
+
+	.botao.login{
+		display: block;
+	}
+
+	.botao.login  .fa{
+		font-size: 1.5em;
+	}
+
+	.slogan{
+		font-size: 20px;
+	}
+
+	.titulo{
+	    font-size: 16px;
+	    margin-left: 0px;
+	}
+
+	.topo-esquerdo{
+		width: 70%;
+	}
+	.topo-direito {
+		margin-right: 0px;
+		padding: 0px;
+	}
+
+	.content-info{
+		flex-wrap: wrap;
+		margin: 0;
+	}
+
+	.menu-lateral{
+		display: none;
+	}
+
+	.item-col2{
+		width: 100%;
+	}
+
+	select {
+    	margin-left: 0px;
+	}
+
+	.content-product{
+		display: block;
+	}
+
+	.contato p{
+		padding: 10px;
+	}
+
+	.contato ul{
+		text-align: left;
+		padding-left: 15%;
+	}
+
+	.product-title{
+		padding-top: 30px;
+	}
+
+	.text-contain{
+	    margin: 15px;
+	}
+
+	footer{
+	    position: absolute;
+	    bottom: inherit;
+    }
+    body{
+	    padding-bottom: 90px;
+	}
+}
+
+
+
+
+
+/*fim do smartphone*/
+
+
+
+
+

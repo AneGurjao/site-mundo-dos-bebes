@@ -1,0 +1,119 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+.content-info{
+	text-align: center;
+}
+
+.button-buy{
+    background: #42439d;
+    color: #fff;
+    font-size: 50px;
+    padding: 28px;
+    border: solid 4px #42439d;
+}
+
+.button-news{
+    background: #42439d;
+    color: #fff;
+    font-size: 50px;
+    padding: 28px;
+    border: solid 4px #42439d;
+    margin: 18px auto;
+    display: block;
+}
+
+.titulo{
+    color: #ffffff;
+    font-size: 75px;
+    margin-left: 80px;
+    margin-right: 65px
+}
+
+.nav{   /*icone menu*/
+    background: #42439d;
+    height: 136px;
+}
+.nav img{ 
+	width: 60px;
+    margin-left: 25px;
+    margin-top: 35px; 
+}
+
+.slogan{
+	color: #67aac3;
+	font-size: 21px;
+}	
+
+.logo{
+	text-align: center;
+    padding: 30px;
+}
+
+.logo img{
+	width: 30%;
+}
+
+
+section .title{
+    color: #3a60b6;
+    font-size: 2.3em;
+    border-top: dashed 4px #3a60b6;
+    border-bottom: dashed 4px #3a60b6;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3{
+	color: #2e3092;
+	font-size: 30px;
+}
+
+p{
+	font-size: 12px;
+}
+
+.fotos{
+	width: 100%;
+}
+
+.card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.input-newsletter{
+	width: 90%;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 20px;
+    border: solid 2px;
+    margin-left: 5%;
+}
+
+.category{
+    padding: 12px;
+}
+
+.category p{
+    text-align: center;
+}
+
+.redessociais{
+    text-align: center;
+    display: block; 
+
+}
+
+footer p{
+    color: white;
+    background: #42439d;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
